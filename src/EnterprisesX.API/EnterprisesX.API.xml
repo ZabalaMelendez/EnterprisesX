@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EnterprisesX.API</name>
+    </assembly>
+    <members>
+        <member name="T:EnterprisesX.API.Controllers.V1.Interfaces.IControllerDescriptor`1">
+            <summary>
+            Inteface for basic crud operation over the controllers
+            </summary>
+            <typeparam name="T">DTO request with info or return data</typeparam>
+        </member>
+        <member name="T:EnterprisesX.API.Framework.Constants">
+            <summary>
+            Constant for api project
+            </summary>
+        </member>
+        <member name="F:EnterprisesX.API.Framework.Constants.API_VERSION_V1">
+            <summary>
+            Version constant for API VERSION 1.0.XX
+            </summary>
+        </member>
+        <member name="F:EnterprisesX.API.Framework.Constants.API_VERSION_V2">
+            <summary>
+            Version constant for api version 2.0.XX
+            </summary>
+        </member>
+    </members>
+</doc>
